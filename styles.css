@@ -1,31 +1,11 @@
-/* BACKGROUND TRANSITIONS */
-/* Fade */
-/* Credit: https://github.com/IanLunn/Hover */
-.hvr-fade {
-    display: inline-block;
-    vertical-align: middle;
-    -webkit-transform: perspective(1px) translateZ(0);
-    transform: perspective(1px) translateZ(0);
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-    overflow: hidden;
-    -webkit-transition-duration: 0.3s;
-    transition-duration: 0.3s;
-    -webkit-transition-property: color, background-color;
-    transition-property: color, background-color;
-}
-
-.h-b:hover,
-.h-b:focus,
-.h-b:active {
+.h-b:hover {
     background-color: #0076b6;
     color: white;
     text-decoration: none;
     fill: white;
 }
 
-.h-p:hover,
-.h-p:focus,
-.h-p:active {
+.h-p:hover {
     background-color: #f3ab1f;
     color: white;
     text-decoration: none;
@@ -39,8 +19,4 @@
 
 .link {
     color: #f3ab1f;
-}
-
-#descr {
-    list-style-type: square;
 }
