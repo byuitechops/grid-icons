@@ -14,24 +14,34 @@
     transition-property: color, background-color;
 }
 
-.hvr-fade:hover,
-.hvr-fade:focus,
-.hvr-fade:active {
+.h-b:hover,
+.h-b:focus,
+.h-b:active {
+    background-color: #0076b6;
+    color: white;
+    text-decoration: none;
+    fill: white;
+}
+
+.h-p:hover,
+.h-p:focus,
+.h-p:active {
     background-color: #f3ab1f;
     color: white;
     text-decoration: none;
     fill: white;
 }
 
-.link {
-    color: #f3ab1f;
-}
-
-link:hover {
-    color: white;
+.line {
+    border-top: 1px solid black;
+    width: 80%;
 }
 
 .footer {
     bottom: 0;
     position: absolute;
+}
+
+.link {
+    color: #f3ab1f;
 }
