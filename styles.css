@@ -37,11 +37,10 @@
     width: 80%;
 }
 
-.footer {
-    bottom: 0;
-    position: absolute;
-}
-
 .link {
     color: #f3ab1f;
+}
+
+#descr {
+    list-style-type: square;
 }
