@@ -1,15 +1,24 @@
-.h-b:hover {
-    background-color: #0076b6;
-    color: white;
-    text-decoration: none;
+a.h-p {
+    background-color: #f3ab1f;
+    color: black;
+    text-decoration: underline;
     fill: white;
 }
-
 .h-p:hover {
-    background-color: #f3ab1f;
+    opacity: 0.6;
+    color: black;
+    text-decoration: underline;
+}
+a.h-b {
+    background-color: #0076b6;
     color: white;
-    text-decoration: none;
+    text-decoration: underline;
     fill: white;
+}
+.h-b:hover {
+    opacity: 0.6;
+    color: white;
+    text-decoration: underline;
 }
 
 .line {
