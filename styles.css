@@ -1,24 +1,11 @@
-a.h-p {
+.h-p {
     background-color: #f3ab1f;
-    color: black;
-    text-decoration: underline;
     fill: white;
 }
-.h-p:hover {
-    opacity: 0.6;
-    color: black;
-    text-decoration: underline;
-}
-a.h-b {
+
+.h-b {
     background-color: #0076b6;
-    color: white;
-    text-decoration: underline;
     fill: white;
-}
-.h-b:hover {
-    opacity: 0.6;
-    color: white;
-    text-decoration: underline;
 }
 
 .line {
@@ -28,4 +15,9 @@ a.h-b {
 
 .link {
     color: #f3ab1f;
+}
+
+.card .btn-primary {
+    background-color: #0076b6;
+    border-color: #0076b6;
 }
